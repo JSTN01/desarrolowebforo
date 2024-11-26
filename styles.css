@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 238, 240);
+
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 55px;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+a{
+    font-size:small;
+    padding-top: 10px;
+}
+
+.ingresar{
+    border: 2px solid black;
+    text-align: left;
+    border-radius: 20px;
+    height: 25%;
+    width: 30%;
+}
+
+.registrarse{
+    border: 2px solid black;
+    text-align: left;
+    border-radius: 20px;
+    height: 20%;
+    width: 30%;
+}
+
+form{
+    box-sizing: border-box;
+    display: flex;
+    padding: 20%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    
+}   
+
+label {
+    
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 100%;
+    border-radius: 20px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+button {
+    padding: 10px 20px;
+    padding-top: 15px;
+    background-color:darkgrey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
